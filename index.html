@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <title>Panda Commerce</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./img/logo.png" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shouse</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Bagpack</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Subscribe</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end -->
+
+    <!-- header slider -->
+    <header id="mainHeader" class="my-2">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <div class="container header_bg p-5">
+              <div class="row">
+                <div
+                  class="col-md-5 col-sm-12 col-lg-6 d-flex flex-column justify-content-center"
+                >
+                  <h1>X-Box for your living room</h1>
+                  <p>
+                    This is the best headphone in the world for people who just
+                    want to waste time in front of funky world.
+                  </p>
+                  <h3>$150</h3>
+                  <button type="button" class="btn btn-info">Buye Now</button>
+                </div>
+                <div class="col-md-7 col-sm-12 col-lg-6">
+                  <img
+                    src="./img/banner-images/xbox.png"
+                    class="img-fluid"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="3000">
+            <div class="container header_bg p-5">
+              <div class="row">
+                <div
+                  class="col-md-5 col-sm-12 col-lg-6 d-flex flex-column justify-content-center"
+                >
+                  <h1>Mega LCD TV For Sports</h1>
+                  <p>
+                    This is the best headphone in the world for people who just
+                    want to waste time in front of funky world.
+                  </p>
+                  <h3>$1500</h3>
+                  <button type="button" class="btn btn-info">Buye Now</button>
+                </div>
+                <div class="col-md-7 col-sm-12 col-lg-6">
+                  <img
+                    src="./img/banner-images/tv.png"
+                    class="img-fluid"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" data-bs-interval="4000">
+            <div class="container header_bg p-5">
+              <div class="row">
+                <div
+                  class="col-md-5 col-sm-12 col-lg-6 d-flex flex-column justify-content-center"
+                >
+                  <h1>Cool Dude Headphone</h1>
+                  <p>
+                    This is the best headphone in the world for people who just
+                    want to waste time in front of funky world.
+                  </p>
+                  <h3>$150</h3>
+                  <button type="button" class="btn btn-info">Buye Now</button>
+                </div>
+                <div class="col-md-7 col-sm-12 col-lg-6">
+                  <img
+                    src="./img/banner-images/headphone.png"
+                    class="img-fluid"
+                    alt="..."
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <!-- header slider end -->
+    <section
+      id="catagiorySection"
+      style="padding-bottom: 2rem; padding-top: 2rem"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div
+              class="catagory_content px-4 py-2 d-flex justify-content-between align-items-center"
+            >
+              <h1>Watch</h1>
+              <img
+                src="./img/categories/watch.png"
+                class="img-fluid"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div
+              class="catagory_content px-4 py-2 d-flex justify-content-between align-items-center bg-success"
+            >
+              <h1>Shoes</h1>
+              <img
+                src="./img/categories/shoes.png"
+                class="img-fluid"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-4 col-lg-4">
+            <div
+              class="catagory_content bg-primary px-4 py-2 d-flex justify-content-between align-items-center"
+            >
+              <h1>Bag</h1>
+              <img src="./img/categories/bag.png" class="img-fluid" alt="..." />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ============ end cetagory ============== -->
+    <!-- ============ Shos section ============== -->
+    <section id="shoseSection" style="padding-bottom: 2rem; padding-top: 1rem">
+      <div class="container">
+        <div class="title py-3">
+          <h2>Shoes</h2>
+        </div>
+        <div class="row">
+          <div class="col-sm-1 col-md-4 col-md-4">
+            <div class="card shadow" style="width: 22rem">
+              <img
+                src="./img/shoes/shoe-1.png"
+                class="card-img-top"
+                alt="Shose"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Supply 350</h5>
+                <h2 class="card-text">$160</h2>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-1 col-md-4 col-md-4">
+            <div class="card shadow" style="width: 22rem">
+              <img
+                src="./img/shoes/shoe-1.png"
+                class="card-img-top"
+                alt="Shose"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Supply 350</h5>
+                <h2 class="card-text">$160</h2>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-1 col-md-4 col-md-4">
+            <div class="card shadow" style="width: 22rem">
+              <img
+                src="./img/shoes/shoe-1.png"
+                class="card-img-top"
+                alt="Shose"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Supply 350</h5>
+                <h2 class="card-text">$160</h2>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="title py-3">
+          <h2>Backpack</h2>
+        </div>
+        <div class="row">
+          <div class="col-sm-1 col-md-4 col-md-4">
+            <div class="card shadow" style="width: 22rem">
+              <img
+                src="./img/bags/bag-1.png"
+                class="card-img-top"
+                alt="Shose"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Red Laltu Bag</h5>
+                <h2 class="card-text">$160</h2>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-1 col-md-4 col-md-4">
+            <div class="card shadow" style="width: 22rem">
+              <img
+                src="./img/bags/bag-2.png"
+                class="card-img-top"
+                alt="Shose"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Nike 360</h5>
+                <h2 class="card-text">$160</h2>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-1 col-md-4 col-md-4">
+            <div class="card shadow" style="width: 22rem">
+              <img
+                src="./img/bags/bag-3.png"
+                class="card-img-top"
+                alt="Shose"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Black Airmax</h5>
+                <h2 class="card-text">$160</h2>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ============ Shos section end ============== -->
+    <!-- ============ Newslatter section ============== -->
+    <section id="newsLatter" style="padding-top: 2rem; padding-bottom: 2rem">
+      <div class="container">
+        <div class="news_latter_content">
+          <div
+            class="newslatter pt-5 d-flex justify-content-center align-items-center flex-column"
+          >
+            <h1>LET'S STAY IN TOUCH</h1>
+            <p>Get updates on sales, specials and more</p>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Subscribe Now "
+              />
+            </div>
+            <a href="#" class="btn btn-primary">Submit</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ============ Newslatter section end ============== -->
+    <footer class="d-flex justify-content-center align-items-center pb-3">
+      <a href="https://codewithashim.netlify.app/" style="text-align: center;">©2023. Panda Commerce. All rights reserved.Developed By
+        Codewithashim</a
+      >
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
